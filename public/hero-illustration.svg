@@ -1,0 +1,59 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F5F5F5" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="20" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Card background -->
+  <rect x="80" y="60" rx="28" width="640" height="420" fill="url(#grad2)" filter="url(#shadow)"/>
+
+  <!-- Abstract map routes -->
+  <path d="M110 420 C 230 340, 320 480, 460 420 S 690 320, 710 380" stroke="#111111" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.25"/>
+  <path d="M110 360 C 240 280, 330 420, 470 360 S 700 260, 720 320" stroke="#000000" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.18"/>
+
+  <!-- Route dots -->
+  <circle cx="150" cy="380" r="6" fill="#111111"/>
+  <circle cx="280" cy="350" r="6" fill="#000000"/>
+  <circle cx="430" cy="375" r="6" fill="#111111"/>
+  <circle cx="590" cy="340" r="6" fill="#000000"/>
+
+  <!-- Location pins -->
+  <g transform="translate(210,180)">
+    <path d="M40 0C17.9 0 0 17.9 0 40C0 69 40 104 40 104C40 104 80 69 80 40C80 17.9 62.1 0 40 0Z" fill="#111111"/>
+    <circle cx="40" cy="40" r="14" fill="#fff"/>
+  </g>
+  <g transform="translate(540,240)">
+    <path d="M40 0C17.9 0 0 17.9 0 40C0 69 40 104 40 104C40 104 80 69 80 40C80 17.9 62.1 0 40 0Z" fill="#000000" opacity="0.9"/>
+    <circle cx="40" cy="40" r="14" fill="#fff"/>
+  </g>
+
+  <!-- Phone mockup -->
+  <g transform="translate(320,110)" filter="url(#shadow)">
+    <rect x="0" y="0" width="180" height="360" rx="28" fill="#0B1220"/>
+    <rect x="10" y="14" width="160" height="332" rx="18" fill="#0F172A"/>
+    <rect x="22" y="80" width="136" height="180" rx="14" fill="#111827"/>
+    <circle cx="90" cy="44" r="6" fill="#1F2937"/>
+    <rect x="48" y="284" width="96" height="14" rx="7" fill="#1F2937"/>
+    <rect x="40" y="306" width="112" height="8" rx="4" fill="#1F2937"/>
+
+    <!-- Tiny route inside phone -->
+    <path d="M38 220 C 60 200, 110 240, 150 220" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7"/>
+    <circle cx="52" cy="214" r="4" fill="#FFFFFF"/>
+    <circle cx="144" cy="224" r="4" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Plane -->
+  <g transform="translate(560,120)">
+    <path d="M0 24 L60 0 L52 22 L100 36 L96 48 L48 36 L38 60 Z" fill="#111111" opacity="0.95"/>
+  </g>
+</svg>
+

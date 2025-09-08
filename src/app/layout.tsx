@@ -21,7 +21,7 @@ const jura = Jura({
 export const metadata: Metadata = {
   title: "Sanchara • Travel and Tourism",
   description: "Discover, plan, and book unforgettable journeys with Sanchara.",
-  metadataBase: new URL("https://sanchara.app"),
+  metadataBase: new URL("https://sanchara.sreecharandesu.in"),
   keywords: [
     "Sanchara",
     "Travel",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: "Sanchara • Travel and Tourism",
     description:
       "Discover, plan, and book unforgettable journeys with Sanchara.",
-    url: "https://sanchara.app",
+    url: "https://sanchara.sreecharandesu.in",
     siteName: "Sanchara",
     locale: "en_US",
     type: "website",
@@ -81,8 +81,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Sanchara",
-              url: "https://sanchara.app",
-              logo: "https://sanchara.app/logo.svg",
+              url: "https://sanchara.sreecharandesu.in",
+              logo: "https://sanchara.sreecharandesu.in/logo.svg",
               description:
                 "Consent-first trip logging for mobility planning and tourism insights.",
               sameAs: [

@@ -19,8 +19,9 @@ const jura = Jura({
 });
 
 export const metadata: Metadata = {
-  title: "Sanchara • Travel and Tourism",
-  description: "Discover, plan, and book unforgettable journeys with Sanchara.",
+  title: "Sanchara • Consent-first Trip Data Collection for NATPAC",
+  description:
+    "Mobile app to capture consented trip chains (origin, time, mode, destination, companions), with passive detection, offline storage, and secure sync for transport planning.",
   metadataBase: new URL("https://sanchara.sreecharandesu.in"),
   keywords: [
     "Sanchara",
@@ -35,9 +36,9 @@ export const metadata: Metadata = {
     icon: "/logo.svg",
   },
   openGraph: {
-    title: "Sanchara • Travel and Tourism",
+    title: "Sanchara – Consent-first Trip Logging for Planning",
     description:
-      "Discover, plan, and book unforgettable journeys with Sanchara.",
+      "Capture accurate, privacy-aware trip data (OD, mode, time, companions) with passive detection and offline-first sync.",
     url: "https://sanchara.sreecharandesu.in",
     siteName: "Sanchara",
     locale: "en_US",
@@ -53,9 +54,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sanchara • Travel and Tourism",
+    title: "Sanchara – Consent-first Trip Logging",
     description:
-      "Discover, plan, and book unforgettable journeys with Sanchara.",
+      "Trip chains for NATPAC: origin, mode, destination, companions; passive detection, offline storage, secure sync.",
     images: ["/og-image.png"],
   },
 };

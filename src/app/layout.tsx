@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Sanchara • Travel and Tourism",
   description: "Discover, plan, and book unforgettable journeys with Sanchara.",
   metadataBase: new URL("https://sanchara.app"),
+  icons: {
+    icon: "/logo.svg",
+  },
   openGraph: {
     title: "Sanchara • Travel and Tourism",
     description:

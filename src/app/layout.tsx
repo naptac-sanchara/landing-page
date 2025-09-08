@@ -23,12 +23,21 @@ export const metadata: Metadata = {
     url: "https://sanchara.app",
     siteName: "Sanchara",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Sanchara Preview",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Sanchara • Travel and Tourism",
     description:
       "Discover, plan, and book unforgettable journeys with Sanchara.",
+    images: ["/og-image.png"],
   },
 };
 

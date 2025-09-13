@@ -21,16 +21,10 @@ export function CTA() {
           </p>
           <div className="mt-6 flex items-center justify-center gap-3">
             <a
-              className="rounded-md bg-foreground text-background px-5 py-3 font-medium hover:opacity-90"
-              href="#"
-            >
-              Download for iOS
-            </a>
-            <a
               className="rounded-md border border-foreground/15 px-5 py-3 font-medium hover:bg-foreground/5"
               href="#"
             >
-              Download for Android
+              Download now
             </a>
           </div>
         </motion.div>
